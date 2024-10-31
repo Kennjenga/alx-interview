@@ -33,3 +33,6 @@ def minOperations(n):
             # print('-(01)->{}'.format('H' * done), end='')
     # print('')
     return ops_count
+
+n = 4
+print("Min # of operations to reach {} char: {}".format(n, minOperations(n)))
